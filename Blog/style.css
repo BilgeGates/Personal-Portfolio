@@ -12,12 +12,12 @@ html {
 :root {
   --white-color: #fff;
   --black-color: #000;
-  --primary-color: rgb(243, 78, 78);
-  --secondary-color: rgb(2, 27, 68);
-  --thirdh-color: rgb(230, 237, 247);
-  --fourth--color: blue;
-  --fifth-color: rgb(9, 9, 119);
-  --sixth-color: gray;
+  --primary-color: #ff6464;
+  --secondary-color: #21243d;
+  --thirdh-color: #edf7fa;
+  --fourth--color: #00a8cc;
+  --fifth-color: #142850;
+  --sixth-color: #8695a4;
 }
 
 ul {
