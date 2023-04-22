@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: rgb(243, 78, 78);
+  --secondary-color: rgb(2, 27, 68);
+  --thirdh-color: rgb(230, 237, 247);
+  --fourth--color: blue;
+  --fifth-color: rgb(9, 9, 119);
+  --sixth-color: gray;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  font-size: 1.2rem;
+  color: var(--black-color);
+  font-weight: 600;
+}
+
+nav .active {
+  color: var(--primary-color);
+}
+
+nav a:focus {
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+main .container {
+  width: 100%;
+}
+
+.blog {
+  width: 65%;
+  margin: auto;
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.head-box {
+  width: 65%;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.box-head {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+.box-body {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.box-body div {
+  font-size: 1.3rem;
+  margin-top: 1.5rem;
+}
+
+.box-body .exspress {
+  color: var(--sixth-color);
+}
+
+.box-footer {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+footer .footer {
+  height: 10%;
+  margin-top: 5%;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer .icons div a {
+  font-size: 2.5rem;
+  color: var(--black-color);
+}
+
+footer .copyright {
+  text-align: center;
+  margin: 1rem 0 5% 0;
+  font-size: 0.9rem;
+}
