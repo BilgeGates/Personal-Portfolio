@@ -95,8 +95,8 @@ main .container {
 }
 
 .head-blog .download button {
-  width: 35%;
-  padding: 0.9rem 0;
+  width: 13rem;
+  height: 2.9375rem;
   margin-top: 2rem;
   font-size: 1.2rem;
   background-color: var(--primary-color);
@@ -223,11 +223,12 @@ main .container {
   background-color: var(--fifth-color);
   color: var(--white-color);
   border-radius: 40%;
-  width: 11%;
+  width: 3.875rem;
+  height: 1.5625rem;
   text-align: center;
   font-size: 1.2rem;
   font-weight: 700;
-  padding: 0.5rem 0;
+  line-height: 1.5;
 }
 
 .head-featured .works-dashboard {
@@ -266,4 +267,86 @@ footer .copyright {
   text-align: center;
   margin: 1rem 0 5% 0;
   font-size: 0.9rem;
+}
+
+/** Phone Screen */
+
+@media only screen and (max-width: 425px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .menu-bars {
+    display: block;
+  }
+
+  .head-blog {
+    flex-direction: column-reverse;
+    margin-top: -22rem;
+  }
+
+  .head-blog .john-img img {
+    width: 100%;
+  }
+
+  .head-blog .circle-img img {
+    width: 100%;
+  }
+
+  .blog {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .head-recent .recent {
+    width: 100%;
+  }
+
+  .head-recent .posts {
+    justify-content: center;
+  }
+
+  .head-recent .post {
+    display: none;
+  }
+
+  .head-recent .head-box {
+    flex-direction: column;
+  }
+
+  .head-recent .box {
+    width: 95%;
+    margin: auto;
+  }
+
+  .head-featured .featured {
+    width: 95%;
+    margin: auto;
+  }
+
+  .head-featured .featured-works {
+    text-align: center;
+  }
+
+  .head-featured .head-works {
+    flex-direction: column;
+  }
+
+  .head-featured .works {
+    width: 95%;
+    margin-top: -8rem;
+  }
+
+  .head-featured .works-head a {
+    font-size: 2rem;
+  }
+
+  .head-featured .works-img img {
+    width: 250%;
+  }
+
+  .head-featured .p-responsive {
+    display: none;
+  }
 }
