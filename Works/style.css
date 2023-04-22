@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-color: rgb(243, 78, 78);
+  --secondary-color: rgb(2, 27, 68);
+  --thirdh-color: rgb(230, 237, 247);
+  --fourth--color: blue;
+  --fifth-color: rgb(9, 9, 119);
+  --sixth-color: gray;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  font-size: 1.2rem;
+  color: var(--black-color);
+  font-weight: 600;
+}
+
+nav .active {
+  color: var(--primary-color);
+}
+
+nav a:focus {
+  color: var(--primary-color);
+}
+
+nav a:hover {
+  color: var(--primary-color);
+}
+
+main .container {
+  width: 100%;
+}
+
+.head-blog {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  width: 80%;
+  margin: auto;
+  margin-top: 7rem;
+}
+
+.blog {
+  width: 55%;
+}
+
+.head-blog .john {
+  font-size: 2.8rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+  line-height: 3.3rem;
+}
+
+.head-blog .john-info {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.head-blog .download button {
+  width: 35%;
+  padding: 0.9rem 0;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+.head-blog .john-img img {
+  border-radius: 50%;
+  width: 130%;
+  height: 85%;
+  z-index: 1;
+  position: relative;
+}
+
+.head-blog .circle-img img {
+  width: 135%;
+  height: 90%;
+  z-index: -1;
+  position: relative;
+  top: -1%;
+  right: 143%;
+}
+
+.head-recent {
+  margin-top: 6rem;
+  background-color: var(--thirdh-color);
+}
+
+.head-recent .recent {
+  width: 80%;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+.head-recent .posts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.head-recent .posts .head-post {
+  font-size: 1.5rem;
+}
+
+.head-recent .posts .post a {
+  color: var(--fourth--color);
+}
+
+.head-recent .head-box {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+
+.head-recent .box {
+  background-color: var(--white-color);
+  padding: 1rem 2rem 1rem 0.8rem;
+}
+
+.head-recent .box-head {
+  font-size: 1.9rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: var(--secondary--color);
+}
+
+.head-recent .box-body {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.head-recent .box-footer {
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+
+.head-featured .featured {
+  width: 80%;
+  margin: auto;
+}
+
+.head-featured .featured-works {
+  margin-top: 2rem;
+}
+
+.head-featured .featured-works div {
+  font-size: 1.5rem;
+}
+
+.head-featured .head-works {
+  display: flex;
+  gap: 9rem;
+  margin-top: 2rem;
+}
+
+.head-featured .works-img {
+  width: 40%;
+}
+
+.head-featured .works-img img {
+  width: 180%;
+  height: 100%;
+  border-radius: 5%;
+}
+
+.head-featured .works-head a {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  font-weight: 700;
+}
+
+.head-featured .works-body {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.head-featured .works-year {
+  background-color: var(--fifth-color);
+  color: var(--white-color);
+  border-radius: 40%;
+  width: 11%;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 0.5rem 0;
+}
+
+.head-featured .works-dashboard {
+  font-size: 1.2rem;
+  color: var(--sixth-color);
+}
+
+.head-featured .works-footer {
+  margin-top: 2rem;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+hr {
+  margin-top: 2rem;
+}
+
+footer .footer {
+  height: 10%;
+  margin-top: 5%;
+}
+
+footer .icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+footer .icons div a {
+  font-size: 2.5rem;
+  color: var(--black-color);
+}
+
+footer .copyright {
+  text-align: center;
+  margin: 1rem 0 5% 0;
+  font-size: 0.9rem;
+}
