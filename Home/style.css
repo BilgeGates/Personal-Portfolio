@@ -272,12 +272,7 @@ footer .copyright {
 
 @media only screen and (max-width: 425px) {
   nav {
-    width: 95%;
-    margin: auto;
-  }
-
-  nav ul {
-    display: none;
+    width: 100%;
   }
 
   nav .menu-bars {
@@ -289,10 +284,7 @@ footer .copyright {
     margin-top: -22rem;
   }
 
-  .head-blog .john-img img {
-    width: 100%;
-  }
-
+  .head-blog .john-img img,
   .head-blog .circle-img img {
     width: 100%;
   }
@@ -311,19 +303,18 @@ footer .copyright {
     justify-content: center;
   }
 
-  .head-recent .post {
+  nav ul,
+  .head-recent .post,
+  .head-featured .p-design {
     display: none;
   }
 
-  .head-recent .head-box {
+  .head-recent .head-box,
+  .head-featured .head-works {
     flex-direction: column;
   }
 
-  .head-recent .box {
-    width: 95%;
-    margin: auto;
-  }
-
+  .head-recent .box,
   .head-featured .featured {
     width: 95%;
     margin: auto;
@@ -331,10 +322,6 @@ footer .copyright {
 
   .head-featured .featured-works {
     text-align: center;
-  }
-
-  .head-featured .head-works {
-    flex-direction: column;
   }
 
   .head-featured .works {
@@ -348,10 +335,6 @@ footer .copyright {
 
   .head-featured .works-img img {
     width: 250%;
-  }
-
-  .head-featured .p-design {
-    display: none;
   }
 
   .footer {

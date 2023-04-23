@@ -67,7 +67,7 @@ nav .menu-bars {
   display: none;
 }
 
-nav .menu-bars {
+nav .house {
   font-size: 1.2rem;
 }
 
@@ -175,7 +175,8 @@ footer .copyright {
     width: 100%;
   }
 
-  nav ul {
+  nav ul,
+  .head-featured .p-design {
     display: none;
   }
 
@@ -203,10 +204,6 @@ footer .copyright {
 
   .head-featured .works-img img {
     width: 250%;
-  }
-
-  .head-featured .p-design {
-    display: none;
   }
 
   .footer {
