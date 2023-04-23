@@ -28,8 +28,8 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 90%;
+nav .container {
+  width: 100%;
   margin: auto;
 }
 
