@@ -147,8 +147,7 @@ footer .copyright {
 
 @media only screen and (max-width: 425px) {
   nav {
-    width: 95%;
-    margin: auto;
+    width: 100%;
   }
 
   nav ul {
