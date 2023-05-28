@@ -1,5 +1,11 @@
 # Personal-Portfolio
 
-## About the Project
+###  Hello, this project is created using HTML and CSS.  
 
-#### This project consists of a blog. There is information about the founder's place of work and himself
+## Setup Project  
+
+### You need to download this project your to local machine using this command or you can download zip file. 
+
+     git clone https://github.com/BilgeGates/Personal-Portfolio.git  
+
+## Haven a nice day!
